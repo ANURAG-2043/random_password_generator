@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    background-color: aqua;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    padding: 20px 40px 20px 40px;
+    
+    min-width: 500px;
+    background-color: aliceblue;
+    box-shadow: 0 6px 10px rgb(0, 0, 0);
+    border-radius: 2px;
+    margin: 20px;
+    margin-top: 0;
+}
+#pass-box{
+    width: 100%;
+    display: block;
+    background-color: rgb(90, 87, 87);
+    color: azure;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.row{
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    color: grey;
+    font-size: 25px;
+}
+label{
+    user-select: none;
+}
+#total-char{
+    font: 10px;
+    padding: 5px;
+}
+#btn{
+    width: 100%;
+    font-size: 25px;
+    outline: 0;
+    border:0;
+    padding: 10px;
+    background-color: grey;
+    color: aliceblue;
+    margin: 10px;
+    border-radius: 5px;
+}
+ #btn:hover{
+    background-color: rgb(101, 230, 49);
+    color: black;
+    font-size: 35px;
+}
+#pass-box:hover{
+    background-color: rgb(236, 171, 51);
+    color: black;
+    font-size: 35px; 
+}
+h1{
+    background-color: aqua;
+    text-align: center;
+    padding:20px;
+    padding-top: 35px;
+    padding-bottom: 0px;
+    font-size: 60px;
+}
